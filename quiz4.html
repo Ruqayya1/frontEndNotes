@@ -4,50 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Quiz 4</title>
+    <title>Quiz 4</title>\
+    <link rel="stylesheet" href="quiz4.css">
+    
 </head>
 <body>
     <h1> Register</h1>
     <form action="">
         <label for="First name"> First Name</label>
-        <input type="First name" id= "first name" placeholder= "first name">
+        <input type="First name" id= "First name" placeholder= "first name">
         <label for=" Last Name"> Last name</label>
-        <input type="last name" id= "last name" placeholder= " lastname"><br>
-        <label for="Male"> Male:</label>
-        <input type="radio" id ="Male" name="Gender" value="Male">
+        <input type="Last name" id= "Last name" placeholder= " lastname"><br>
+        <!--  required is used so that the users dont skip this area -->
+        <label for="Male" required> Male:</label>
+        <input type="radio" id ="Male" name="Gender" value="Male" required>
         <label for="Female"> Female:</label>
         
         <input type="radio" id ="Female" name="Gender" value="Female">
-        <label for="other"> other</label>
-        <input type="radio" id ="Other" name="Gender" value="other">
+        <label for="Other"> other</label>
+        <input type="radio" id ="Other" name="Gender" value="other" required>
         <br>
         <label for="Email"> Email</label>
         <input type="email" id= "email" placeholder= "your email">
-        <label for=" Password:"> password:</label>
-        <input type="password" id= "password" placeholder= ""><br>
-        <p> Birthday:
+        <label for=" Password"> password:</label>
+        <input type="password" id= "Password" placeholder= ""><br>
+        <!-- 
+            extra credit to display paasword must be of these characers
 
+            <input type ="password" name="password" pattern="(5,10)"  title ="password must bee between 5 to 10 characters" required>
+         -->
+        <p> Birthday:
+         <!--  disabled selected makes us not to select the option -->
         <select name="Month" id="">
-                <option value="">Month</option>
+                <option value="" disabled selected>Month</option>
                 <option value="">Jan</option>
-                <option value="">  Feb</option>
-                <option value=""> march</option>
+                <option value=""> Feb</option>
+                <option value=""> March</option>
             </select>
             <select name="Day" id="">
-                    <option value="">Day</option>
+                    <option value="" disabled selected>Day</option>
                     <option value="">01</option>
                     <option value=""> 02</option>
                     <option value=""> 03</option>
                 </select>
                 <select name="year" id="">
-                        <option value="">Year</option>
+                        <option value="" disabled selected>Year</option>
                         <option value="">1994</option>
                         <option value="">1995</option>
                         <option value=""> 1996</option>
                     </select>
                     </p>
                    
-                    <p> I agree to the terms and Conditions  <input type ="checkbox">
+                    <p> I agree to the terms and Conditions  <input type ="checkbox" id ="agreed" required>
                         <button> submit</button>
                         </p>
 

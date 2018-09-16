@@ -1,0 +1,17 @@
+body{
+    color:red;
+}
+ul{
+    color:purple;
+}
+/* descendent takes preference over the parent */
+li{
+    color:blue;
+}
+.highlight{
+    background-color: grey;
+    color:orange;
+}
+#special{
+    color:green;
+}

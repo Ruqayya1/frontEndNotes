@@ -1,0 +1,28 @@
+/* slects everything */
+
+*{
+    border: 1px solid black;
+}
+/* descendent selectors - take 2 or more tag names and change them together */
+li a{
+ color:red;
+}
+/*  adjacent selector- lets us to select elements that come after the another element(not descendent but like sibling) */
+h4+ul{
+    border:4px solid blue;
+}
+/* attribute selector- way to select elements based off of any element */
+a[href="http://www.google.com"]{
+    background:yellow;
+}
+/* nth of type- takes a number and selects every nth of specific element */
+ul:nth-of-type(3){
+    background:purple;
+}
+li:nth-of-type(3){
+    background:pink;
+
+}
+li:nth-last-of-type(even){
+    background:cyan;
+}

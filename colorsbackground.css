@@ -1,0 +1,23 @@
+body{
+    color:pink;
+    background-image:url("https://as2.ftcdn.net/jpg/00/93/97/33/500_F_93973384_rcdu5NUSu7a1D4SgVBXbYNBe6iOVOGI5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+h1{
+    color:#ff0000;
+    /* border-color: purple;
+    border-width: 5px;
+    border-style:solid; */
+
+    border: dashed thick purple;
+}
+/* RGB */
+h4{
+    color: rgb(11,99,150);
+    background:rgb(255,100,0);
+}
