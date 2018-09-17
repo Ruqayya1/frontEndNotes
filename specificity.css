@@ -12,6 +12,8 @@ li{
     background-color: grey;
     color:orange;
 }
+/* Id takes precedence over the class */
 #special{
-    color:green;
+    color:green; 
+
 }
