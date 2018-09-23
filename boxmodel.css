@@ -1,0 +1,44 @@
+/* starting a content -width and height */
+/* p{
+    width: 200px; */
+    /* height:300px;
+} */
+
+p{
+    width:50%;
+}
+/* Border- shorthand syntax that accepts multiple values for drawing a line around the element
+accepts one or  more following rules 
+border: width style color; */
+.first{
+    /* border-width: 2px;
+    border-style:solid;
+    color:blue;
+    border-color:green; */
+    border: 2px solid purple;
+    /* for width u can use :thin =1px; medium:3px; thick:5px;
+    style: none; hidden;dashed ; dotted ; double  */
+}
+/* PADDING: space between content and border */
+.second{
+    border:8px solid green;
+    /* padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-align: center; */
+    /* padding on all four sides */
+    padding: 10px 20px 10px 20px;
+
+    text-align: center;
+
+}
+/* Margin -defines the outermost portion of the box model, creating space around the element , outside of any defined borders
+margins can be set using lengths, percentages , keyword-"auto" and can also have negative values*/
+.first{
+    /* margin: 100px; */
+    margin:0 auto;
+    /* top and bottom =zero amnd left and right =auto */
+    /* auto- pushes the element (or border) at the center */
+    /* text align pushes the content at the center of the borders */
+}
