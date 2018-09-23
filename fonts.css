@@ -1,0 +1,59 @@
+/* font family code */
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{font-family: 'Notable', sans-serif;
+}
+/* font size code */
+body{
+    font-size:10px;
+}
+/* h1{
+    font-size: 100px;
+} */
+h1{
+    font-size:5em;
+}
+/* em is another way of setting font-size that is equal to the size of the parent
+10px*5em=50px */
+p{
+    /* font-size:25px; */
+    font-size:2em;
+    /* makes font 20 pixes (bcoz of body */
+}
+
+ span{
+font-size:2rem;
+} 
+/* rem is relative to the font-size */
+
+/* font-weight */
+
+/* refers to how bold or light the text should be */
+p{
+    /* font-weight:bold; */
+    /* font-weight:light; */
+    /* font-weight:normal; */
+    font-weight:500; 
+    /* selects number from zero to 1000 */
+}
+/* line height  */
+p{
+    line-height:1.5;
+}
+/* text-align */
+h1{
+    text-align: center;
+}
+/* text decoration */
+.first{
+    text-decoration: underline;
+}
+.second{
+    text-decoration: line-through;
+}
+span{
+    text-decoration: overline;
+    text-decoration-color: blue;
+}
