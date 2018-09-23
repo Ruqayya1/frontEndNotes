@@ -38,12 +38,13 @@ h1{
 }
 .r5{
     border-bottom:none;
-    border-right:none;
+    
     
 }
 .r6{
     border-right:none;
     border-bottom:none;
+    border-left:none;
 
 }
 .r7{
@@ -53,10 +54,17 @@ h1{
 }
 .r8{
     border-bottom:none;
-    border-right:none;
+    
 }
 .r9{
     border-bottom:none;
     border-right:none;
+    border-left:none;
     
 }
+/* 
+we can just write
+border-top: 5px solid black;
+border-bottom:5px solid balck;
+
+*/
