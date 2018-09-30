@@ -1,0 +1,31 @@
+.wrapper > div{
+    background:#eee;
+    padding:1em;
+}
+.wrapper > div:nth-child(odd){
+    background:#bbb;
+}
+.wrapper{
+    display:grid;
+    /* grid-template-columns:1fr 1fr 1fr; */
+    /* shortcut */
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap:1em;
+    /* grid-auto-rows:100px; - it bleeds out the content out of the width  */
+    grid-auto-rows: minmax(100px, auto);
+    /* i am setting the width  to 100px, if my content is more then it may automatically adjust it using auto */
+
+}
+/* nested div setup */
+.nested > div{
+    border: #333 1px solid;
+    padding:1em;
+}
+.nested{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows:100px;
+    /* it sets the min height */
+    grid-gap:.5em;
+
+}
