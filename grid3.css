@@ -1,0 +1,41 @@
+.wrapper> div{
+    background: #eee;
+    padding:1em;
+}
+.wrapper>div:nth-child(odd){
+    background:#bbb;
+}
+.wrapper{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap:1em;
+    /* justify content -justifying left to right */
+    /* justify-items: start; */
+    justify-items: stretch;
+    /* aligning items - aligning items top to botoom */
+    /* align-items:start; */
+    align-items:stretch;
+
+}
+.box-1{
+    align-self:start;
+}
+.box-2{
+    align-self:end;
+}
+.box-3{
+    justify-self:end;
+}
+.box-4{
+    grid-column: 1/3;
+    grid-row:3/5; 
+    /* starts at 3 and move to 5 */
+}
+.box-5{
+    grid-column:3;
+    grid-row:2/5;
+}
+.box-6{
+    grid-row: 2/4;
+}
