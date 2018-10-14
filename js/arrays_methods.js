@@ -76,7 +76,7 @@ val = age.sort((x,y)=>
 var under50=(num) =>{
     return num <50;
 }
-val = age.find(under50);
+val = age.every(under50);
 
 
 
