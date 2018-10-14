@@ -24,7 +24,7 @@ html = ' <ul>' +
         <li> Age:${age}</li>
         <li> city:${city}</li>
         <li> Job:${job}</li>
-        <li> ${4+4}</li>
+        <li> ${4+4} </li>
         <li> ${hello()}</li>
         <li> ${age>30? "over 30" :"under 30"} </li>
         </ul>
