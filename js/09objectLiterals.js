@@ -37,6 +37,28 @@ val=person.address.state;
 val=person.address['city'];
 val= person.birthYear();
 
+// in object literals, we can access other properties
+// THIS keyword
+const person2 ={
+    age:24,
+    getbirthYear:function(){
+        return 2018- this.age;
+    }
+}
+val= person2.getbirthYear();
+
+// Arrays amde of objects
+const people =[
+    {name: 'bob', age: 34},
+    {name: 'tim', age: 32},
+    {name: 'wes', age: 26},
+    {name: 'ray', age: 23},
+    {name: 'jim', age: 67},
+    {name: 'messi', age: 56}
+]
+for(let i=0; i<people.length;i++){
+    console.log(people[i].name);
+}
 
 
 // output
