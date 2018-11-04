@@ -1,4 +1,4 @@
-// template literals - including html inside our JS
+ // template literals - including html inside our JS
 
 const name ="john";
 const age =25;

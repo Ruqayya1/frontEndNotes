@@ -50,6 +50,10 @@ numbers.pop();
 
 // splice values
 numbers.splice(1, 3);
+// it can take negative values to remove the specified number
+
+
+
 
 // reverse an array
 numbers.reverse();
