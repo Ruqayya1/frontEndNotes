@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=input, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type ="text" id ="txt">
+    <button onclick="addLi()">ADD</button>
+
+    <ul id ="list">
+        <li> apple</li>
+        <li> orange</li>
+        <li> grapes</li>
+    </ul>
+    <script>
+
+        function addLi(){
+            var txtval =document.getElementById("txt").value;
+            var listNode = document.getElementById("list");
+            var liNode = document.createElement("li");
+            var txtNode = document.createTextNode(txtval);
+            liNode.appendChild(txtNode);
+            listNode.appendChild(liNode);
+
+        }
+    </script>
+</body>
+</html>
